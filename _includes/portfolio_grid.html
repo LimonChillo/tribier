@@ -1,29 +1,36 @@
 <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-            </div>
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Das Turnier heute</h2>
+                  <h3 class="section-subheading text-muted">
+                  Traditionell wurde das Turnier im Zuge des Festes Beltane, dem fünften Vollmond des Jahres, abgehalten. In diesem Jahr entspricht es zirka dem 10. Mai. Um den Ablauf einfacher zu gestalten, kann das Turnier in einem Zeitraum von 21 Tagen um den 10. Mai abgehalten werden.
+                  </h3>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h3 class="section-subheading text-muted">  Die einzelnen Disziplinen werden im folgenden Abschnitt kurz beschrieben. Eine komplette Zusammenstellung der Regeln kannst du dir hier herunterladen!</h3>
+              </div>
+          </div>
+          <div class="row">
+          {% for post in site.posts %}
+              <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                      <div class="portfolio-hover">
+                          <div class="portfolio-hover-content">
+                              <i class="fa fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                      <h4>{{ post.title }}</h4>
+                      <!-- <p class="text-muted">{{ post.subtitle }}</p> -->
+                  </div>
+              </div>
+          {% endfor %}
+          </div>
         </div>
     </section>
