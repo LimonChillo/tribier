@@ -1,94 +1,169 @@
 <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Anmeldung</h2>
-                    <h3 class="section-subheading text-muted">Geöffnet ab 03. Mai!</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" disabled placeholder="Teamname" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group form-group">
-                                    <input type="email" class="form-control" disabled placeholder="Email*" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Anmeldung</h2>
+              <h3 class="section-subheading text-muted text-left">
+                Melde dich hier mit deinem Team an, du erhältst dann in ein paar Tagen eine E-Mail mit weiteren Information.
+                <br>
+                <br>
+                Die Anmeldung ist unverbindlich, bis du die Teilnahme nach Erhalt der E-Mail bestätigst.
+                <br>
+                <br>
+                Ein Beitrag von 50€ pro Team hilft uns die Kosten für Bier und T-Shirts zu decken!
+                <br>
+                <br>
+                Die Teilnehmeranzahl ist auf 8.Teams begrenzt.
 
-                        <div class="row">
-                            <div class="col-md-4 col-md-offset-2">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" disabled placeholder="Teammitglied 1" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                              <div class="control-group form-group">
-                                  <input type="email" class="form-control" disabled placeholder="T-Shirt Größe" id="email" required data-validation-required-message="Please enter your email address.">
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                            </div>
-                        </div>
+              </h3>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-12">
+              <form name="sentMessage" id="contactForm" novalidate>
+                  <div class="row">
+                      <div class="col-md-6 col-md-offset-3">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="team" placeholder="Teamname" id="name" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="control-group form-group">
+                              <input type="email" class="form-control" name="email" placeholder="Email*" id="email" required data-validation-required-message="Bitte eine E-Mailadresse angeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                  </div>
 
-                        <div class="row">
-                            <div class="col-md-4 col-md-offset-2">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" disabled placeholder="Teammitglied 2" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                              <div class="control-group form-group">
-                                  <input type="email" class="form-control" disabled placeholder="T-Shirt Größe" id="email" required data-validation-required-message="Please enter your email address.">
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                            </div>
-                        </div>
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                        <h4 class="section-subheading text-muted">Teammitglieder</h4>
+                      </div>
+                      <div class="col-md-4">
+                        <h4 class="section-subheading text-muted">T-Shirt Größe</h4>
+                      </div>
+                  </div>
 
-                        <div class="row">
-                            <div class="col-md-4 col-md-offset-2">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" disabled placeholder="Teammitglied 3" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                              <div class="control-group form-group">
-                                  <input type="email" class="form-control" disabled placeholder="T-Shirt Größe" id="email" required data-validation-required-message="Please enter your email address.">
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                            </div>
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="tm1" placeholder="Teammitglied 1" id="name" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="control-group form-group">
+                            <select class="form-control" name="tshirt1" placeholder="T-Shirt Größe" id="email" required data-validation-required-message="T-Shirt Größe wählen">
+                              <option value="xs">XS</option>
+                              <option value="s">S</option>
+                              <option value="m" selected>M</option>
+                              <option value="l">L</option>
+                              <option value="xl">X</option>
+                              <option value="2xl">2XL</option>
+                              <option value="3xl">3xL</option>
+                            </select>
+                            <p class="help-block text-danger"></p>
                         </div>
+                      </div>
+                  </div>
 
-                        <div class="row">
-                            <div class="col-md-4 col-md-offset-2">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" disabled placeholder="Teammitglied 4" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                              <div class="control-group form-group">
-                                  <input type="email" class="form-control" disabled placeholder="T-Shirt Größe" id="email" required data-validation-required-message="Please enter your email address.">
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                            </div>
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="tm2" placeholder="Teammitglied 2" id="name" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="control-group form-group">
+                          <select class="form-control" name="tshirt2" placeholder="T-Shirt Größe" id="email" required data-validation-required-message="T-Shirt Größe wählen">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m" selected>M</option>
+                            <option value="l">L</option>
+                            <option value="xl">X</option>
+                            <option value="2xl">2XL</option>
+                            <option value="3xl">3xL</option>
+                          </select>
+                            <p class="help-block text-danger"></p>
                         </div>
+                      </div>
+                  </div>
 
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-xl disabled">Anmelden</button>
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="tm3" placeholder="Teammitglied 3" id="name" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="control-group form-group">
+                          <select class="form-control" name="tshirt3" placeholder="T-Shirt Größe" id="email" required data-validation-required-message="T-Shirt Größe wählen">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m" selected>M</option>
+                            <option value="l">L</option>
+                            <option value="xl">X</option>
+                            <option value="2xl">2XL</option>
+                            <option value="3xl">3xL</option>
+                          </select>
+                            <p class="help-block text-danger"></p>
                         </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="tm4" placeholder="Teammitglied 4" id="name" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="control-group form-group">
+                          <select class="form-control" name="tshirt4" placeholder="T-Shirt Größe" id="email" required data-validation-required-message="T-Shirt Größe wählen">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m" selected>M</option>
+                            <option value="l">L</option>
+                            <option value="xl">X</option>
+                            <option value="2xl">2XL</option>
+                            <option value="3xl">3xL</option>
+                          </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="clearfix"></div>
+                  <div class="col-md-8 col-md-offset-2 text-center">
+                      <div id="success"></div>
+                      <button type="submit" class="btn btn-xl" id="send">Anmeldung abschicken!</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+  <div class="row teilnehmer">
+      <div class="col-md-12 text-center">
+          <h2 class="section-heading">Teilnehmerliste</h2>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 text-center">
+
+          <table class="table" id="teilnehmerliste">
+            <thead>
+              <tr>
+                <th>Team Name</th>
+                <th>Anmeldestatus</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+      </div>
+  </div>
+</section>

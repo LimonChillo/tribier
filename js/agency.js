@@ -15,6 +15,32 @@ $(function() {
     });
 });
 
+$("#contactForm").on("submit", function(e){
+  e.preventDefault();
+  // $(this).serializeArray()
+
+  var values = {};
+  $.each($('#contactForm').serializeArray(), function(i, field) {
+    values[field.name] = field.value;
+  });
+
+  values["status"] = "Warten auf Info-Mail";
+  values["color"] = "info";
+
+
+  firebase.database().ref('teilnehmer/' + values["team"]).set(values);
+})
+
+firebase.database().ref('teilnehmer/').on('value', function(snapshot) {
+  $('#teilnehmerliste tbody').empty()
+
+  for(key in snapshot.val()){
+    var data = snapshot.val()[key]
+    $('#teilnehmerliste tbody').append("<tr class=" + data.color + "><td>" + data.team + "</td><td>" + data.status + "</td></tr>")
+  }
+
+});
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
