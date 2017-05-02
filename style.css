@@ -12,6 +12,20 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.teilnehmer {
+  margin-top: 80px
+}
+
+.table {
+  color: white;
+}
+
+th {
+  text-align: center;
+  font-size: 150%;
+  color: #777;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
