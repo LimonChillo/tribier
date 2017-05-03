@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Das Spiel mit einem kleinen hüpfenden Ball
+description: Der Leumknag ist ein Spiel mit einem kleinen hüpfenden Ball (von dem schott. gäl. leum für hüpfen und cnag für Ball). Mittlerweile auch als „Beerpong“ bekannt. Zwei Teams treten gegeneinander an. Jedes Team stellt 10 Becher, mit einem Schluck Bier gefüllt, pyramidenförmig vor sich auf den Tisch. Ziel ist es mit einem Tischtennisball in die Becher des gegnerischen Teams zu treffen. Wenn in einen Becher getroffen wird, muss dieser ausgetrunken und weggestellt werden. Gewonnen hat das Team, welches zum Schluss noch Becher vor sich stehen hat.
 
 ---

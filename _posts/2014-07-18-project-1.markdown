@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Ein Lauf zu Beginn des Turnieres (von dem schott. gäl. coisich für laufen)
+description: Der Keus ist ein Lauf zu Beginn des Turnieres (von dem schott. gäl. coisich für laufen). Austragungsstätte für den ersten Bewerb, den Stiegenlauf, ist ein dreistöckiges (vier Etagen) Stiegenhaus. Start ist die unterste Etage, Ziel die Oberste. Vor dem Bewerb werden auf jeder Etage, für jeden Teilnehmer eine verschlossene 0,33L Bierflasche positioniert. Der Bewerb startet mit einem Massenstart. Jede Etage darf erst verlassen werden, wenn die 0,33L Bierflasche ausgetrunken wurde. Ziel ist es die vier Etagen so schnell wie möglich zu überwinden.
 
 ---

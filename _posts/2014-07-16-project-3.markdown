@@ -1,5 +1,5 @@
 ---
-title: Der Keann
+title: Der Reann
 subtitle: Website Design
 layout: default
 modal-id: 3
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Der abschließende Bewerb um den Sieger zu küren
+description: Der Reann ist die abschließende Disziplin, in der das Siegerteam gekürt wird (vom schott. gäl. deireannach für Schluss). Mittlerweile auch als „Flunkyball“ bekannt. Zwei Teams stellen sich gegenüber auf. In der Mitte steht eine zum Teil gefüllte Flasche. Ziel ist es mit einem Wurfgeschoß die Flasche in der Mitte zu treffen. Sobald diese umfällt, muss ein Mitglied des gegnerischen Teams in die Mitte rennen, die Flasche aufstellen und wieder zurückrennen. In dieser Zeit darf das Team, welches geworfen hat, von ihrem Bier trinken. Gewonnen hat das Team, welches als erstes kein Bier mehr hat.
 
 ---
