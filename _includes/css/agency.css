@@ -3,13 +3,28 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+img.logo {
+  width: 100%
+}
 
 .teilnehmer {
   margin-top: 80px
 }
 
+.story {
+  padding: 0 20px 0 20px
+}
+
 .table {
   color: white;
+}
+
+td {
+  margin-bottom: 2px
+}
+
+tr {
+  border-bottom: 1px solid #333;
 }
 
 th {
@@ -293,7 +308,7 @@ header {
 }
 
 .bg {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 header .intro-text {
