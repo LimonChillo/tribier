@@ -59,7 +59,7 @@
                         <a class="page-scroll" href="#services">Geschichte</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Das Turnier 2017</a>
+                        <a class="page-scroll" href="#portfolio">Das Turnier 2018</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Anmeldung</a>
@@ -76,9 +76,9 @@
       <div class="bg">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">29. Mai, TU Inffeld, Graz</div>
+                <div class="intro-lead-in">23. Mai, TU Inffeld, Graz</div>
                 <div class="intro-heading"><img src="img/logos/TribierischesTurnier.svg" class="logo img-centered img-responsive" alt=""></div>
-                <div class="intro-lead-in">Die Anmeldung öffnet bald! :)</div>
+                <a href="#contact" class="page-scroll btn btn-xl">Jetzt gleich anmelden!</a>
             </div>
         </div>
       </div>
@@ -139,7 +139,7 @@
               <div class="col-lg-12 text-center">
                   <h2 class="section-heading">Das Turnier heute</h2>
                   <h3 class="section-subheading text-muted">
-                  Traditionell wurde das Turnier im Zuge des Festes Beltane, dem fünften Vollmond des Jahres, abgehalten. In diesem Jahr entspricht es zirka dem 10. Mai. Um den Ablauf einfacher zu gestalten, kann das Turnier in einem Zeitraum von 21 Tagen um den 10. Mai abgehalten werden.
+                  Traditionell wurde das Turnier im Zuge des Festes Beltane, dem fünften Vollmond des Jahres, abgehalten. In diesem Jahr entspricht es zirka dem 10. Mai. Um den Ablauf einfacher zu gestalten, kann das Turnier in einem Zeitraum von 13 Tagen um den 10. Mai abgehalten werden.
                   </h3>
               </div>
           </div>
@@ -206,21 +206,172 @@
   <div class="container">
       <div class="row">
           <div class="col-lg-12 text-center">
-              <h2 class="section-heading">Das war das Tribierische Turnier 2017</h2>
-              <h3 class="section-subheading text-muted text-center">
+              <h2 class="section-heading">Anmeldung</h2>
+              <h3 class="section-subheading text-muted text-left">
+                Melde dich hier mit deinem Team an, du erhältst dann in ein paar Tagen eine E-Mail mit weiteren Information.
                 <br>
                 <br>
-                Wir gratulieren dem <a>1. Flunkyballclub Graz</a> zu ihrem Sieg.
+                Die Anmeldung ist unverbindlich, bis du die Teilnahme nach Erhalt der E-Mail bestätigst.
                 <br>
                 <br>
-                In kürze werden hier Fotos vom Turnier veröffentlicht.
+                Ein Beitrag von 50€ pro Team hilft uns die Kosten für Bier und T-Shirts zu decken!
                 <br>
                 <br>
-                Bei Fragen zum Tribierischen Turnier wendet euch an <a href="mailto:david@tribierisches-turnier.com">david@tribierisches-turnier.com</a>
+                Die Teilnehmeranzahl ist auf 8 Teams begrenzt.
+                <br>
+                <br>
+                Bei Fragen zur Anmeldung bitte schreibt an <a href="mailto:david@tribierisches-turnier.com">david@tribierisches-turnier.com</a>
 
               </h3>
           </div>
       </div>
+      <div class="row">
+          <div class="col-lg-12">
+              <form name="sentMessage" id="contactForm">
+                  <div class="row">
+                      <div class="col-md-6 col-md-offset-3">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="team" placeholder="Teamname" id="name" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="control-group form-group">
+                              <input type="email" class="form-control" name="email" placeholder="Email*" id="email" required data-validation-required-message="Bitte eine E-Mailadresse angeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                        <h4 class="section-subheading text-muted">Teammitglieder</h4>
+                      </div>
+                      <div class="col-md-4">
+                        <h4 class="section-subheading text-muted">T-Shirt Größe</h4>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="tm1" placeholder="Teammitglied 1" id="tm1" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="control-group form-group">
+                            <select class="form-control" name="tshirt1" placeholder="T-Shirt Größe" id="tshirt1" required data-validation-required-message="T-Shirt Größe wählen">
+                              <option value="xs">XS</option>
+                              <option value="s">S</option>
+                              <option value="m" selected>M</option>
+                              <option value="l">L</option>
+                              <option value="xl">X</option>
+                              <option value="2xl">2XL</option>
+                              <option value="3xl">3xL</option>
+                            </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="tm2" placeholder="Teammitglied 2" id="tm2" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="control-group form-group">
+                          <select class="form-control" name="tshirt2" placeholder="T-Shirt Größe" id="tshirt2" required data-validation-required-message="T-Shirt Größe wählen">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m" selected>M</option>
+                            <option value="l">L</option>
+                            <option value="xl">X</option>
+                            <option value="2xl">2XL</option>
+                            <option value="3xl">3xL</option>
+                          </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="tm3" placeholder="Teammitglied 3" id="tm3" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="control-group form-group">
+                          <select class="form-control" name="tshirt3" placeholder="T-Shirt Größe" id="tshirt3" required data-validation-required-message="T-Shirt Größe wählen">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m" selected>M</option>
+                            <option value="l">L</option>
+                            <option value="xl">X</option>
+                            <option value="2xl">2XL</option>
+                            <option value="3xl">3xL</option>
+                          </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-md-4 col-md-offset-2">
+                          <div class="control-group form-group">
+                              <input type="text" class="form-control" name="tm4" placeholder="Teammitglied 4" id="tm4" required data-validation-required-message="Bitte Namen eingeben">
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="control-group form-group">
+                          <select class="form-control" name="tshirt4" placeholder="T-Shirt Größe" id="tshirt4" required data-validation-required-message="T-Shirt Größe wählen">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m" selected>M</option>
+                            <option value="l">L</option>
+                            <option value="xl">X</option>
+                            <option value="2xl">2XL</option>
+                            <option value="3xl">3xL</option>
+                          </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="clearfix"></div>
+                  <div class="col-md-8 col-md-offset-2 text-center">
+                      <div id="success"></div>
+                      <button type="submit" class="btn btn-xl" id="send">Anmelden!</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+    <div class="row teilnehmer">
+        <div class="col-md-12 text-center">
+            <h2 class="section-heading">Teilnehmer</h2>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+
+            <table class="table" id="teilnehmerliste">
+              <thead>
+                <tr>
+                  <th>Team Name</th>
+                  <th>Anmeldestatus</th>
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+        </div>
+    </div>
   </div>
 </section>
 
@@ -395,16 +546,16 @@
     <!-- <script src="/js/contact_me.js"></script> -->
 
 
-    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
     <script>
+      // Initialize Firebase
       var config = {
-        apiKey: "AIzaSyCjAFAEG5xWPwZeqTHTxrGzXZVWmvKDhL4",
-        authDomain: "tribierisches-turnier.firebaseapp.com",
-        databaseURL: "https://tribierisches-turnier.firebaseio.com",
-        projectId: "tribierisches-turnier",
-        storageBucket: "tribierisches-turnier.appspot.com",
-        messagingSenderId: "353826497316"
+        apiKey: "AIzaSyBqKUWuBGjaGCl_rQ95K0RFVISLpTQExyc",
+        authDomain: "tribier-54d8b.firebaseapp.com",
+        databaseURL: "https://tribier-54d8b.firebaseio.com",
+        projectId: "tribier-54d8b",
+        storageBucket: "tribier-54d8b.appspot.com",
+        messagingSenderId: "1023563915205"
       };
       firebase.initializeApp(config);
     </script>
